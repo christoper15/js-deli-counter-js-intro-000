@@ -15,9 +15,9 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  var string = "The line is currently: "
   if (line.length > 0) {
-    string = string + 1. `${line[0]}`
+    var string = `The line is currently: 1. ${line[0]}`
+    
     let i = 0;
     while (i < line.length) {
     string = string + `, ${i+2}. ${line[i+1]}`

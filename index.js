@@ -8,7 +8,7 @@ function nowServing(line) {
   if (line.length > 0) {
 
     line.shift()
-    return `Currently serving ${origarray[0]}.`;
+    return `Currently serving ${origArray[0]}.`;
   } else {
     return "There is nobody waiting to be served!";
   }

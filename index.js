@@ -7,7 +7,7 @@ function nowServing(line) {
   var firstperson = line.splice[1];
   if (line.length = 0) {
     return "There is nobody waiting to be served";
-  } else if {
+  } else {
     line.shift()
     return `Currently serving ${firstperson}.`;
 

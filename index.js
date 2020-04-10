@@ -15,16 +15,17 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  var string = "The line is currently:"
+  var string = "The line is currently: "
   if (line.length > 0) {
+    string = string + `${i+1}. ${line[i]}`
     let i = 0;
     while (i < line.length) {
-    string = string + `${i+1}. ${line[i+1]}`
+    string = string + `, ${i+1}. ${line[i+1]}`
     i++;
     }
     return string;
   } else {
-    return "The line is currently empty";
+    return "The line is currently empty.";
   }
 
 }

@@ -19,7 +19,7 @@ function currentLine(line) {
     var string = `The line is currently: 1. ${line[0]}`
 
     let i = 0;
-    while (i < line.length) {
+    while (i < line.length-1) {
     string = string + `, ${i+2}. ${line[i+1]}`
     i++;
     }

@@ -4,7 +4,7 @@ return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
 
 function nowServing(line) {
-  var origArray = line;
+  var origArray = line.slice(0);
   if (line.length > 0) {
 
     line.shift()

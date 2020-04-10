@@ -1,6 +1,5 @@
 function takeANumber(line , name) {
 
-var line = [];
 line.push(name);
 
 return line;

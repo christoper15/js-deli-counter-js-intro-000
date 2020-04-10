@@ -13,3 +13,18 @@ function nowServing(line) {
     return "There is nobody waiting to be served!";
   }
 }
+
+function currentLine(line) {
+  var string = "The line is currently:"
+  if (line.length > 0) {
+    let i = 0;
+    while (i < line.length) {
+    string = string + `${i+1}. ${line[i+1]}`
+    i++;
+    }
+    return string;
+  } else {
+    return "The line is currently empty";
+  }  
+  
+}
